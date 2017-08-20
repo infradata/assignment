@@ -1,3 +1,4 @@
+# this is invest.py
 def invest(amount, rate, time):
     for t in range(1,time+1):
         amount = amount + (amount * rate)
